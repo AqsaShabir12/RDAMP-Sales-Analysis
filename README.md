@@ -51,17 +51,20 @@ These steps ensured consistency and enabled profit and trend analysis.
 ### 2.1 Regional Performance – Sales & Discounts
 
 ![Total Sales by Region](Total_Sales_by_Region.png)  
-![Total Discount by Region](plots/total_discount_by_region.png)
+![Total Discount by Region](Total_Discount_by_Region.png)
 
-- **Top Sales Regions**: East Midlands, Scotland, Yorkshire and the Humber, London
-- **High Discounts**: North East and East of England (above 16.5%)
-- **Low Sales and Low Discounts**: North Yorkshire and Wales → Possible areas for promotional focus
+- Top-performing regions by total sales include:
+  - East Midlands, Scotland, Yorkshire and the Humber, and London, each recording over £350,000 in total sales.
+  - Lowest performing regions include North East, North Yorkshire, and Wales, all of which contribute minimal sales and may benefit from marketing attention or distribution expansion.
+- In terms of average discount rates, the highest were observed in:
+  - North East (above 17%), followed by East of England and Northern Ireland.
+- Interestingly, East Midlands—the highest sales contributor—had a moderate discount rate (~16.5%), indicating that strong sales are not purely discount-driven.
+- Wales and North Yorkshire show both low sales and low discount rates, making them prime candidates for demand-stimulation strategies (e.g., promotions or pricing revision).
 
----
+### 2.2 Best-Selling & Underperforming Products
 
-### 2.2 🛒 Best-Selling & Underperforming Products
-
-#### ✅ Top 5 Best-Selling Products
+#### Top 5 Best-Selling Products
+![Top 5 Best-Selling Products](Top_5_Best_Selling_Product_by_Revenue.png)  
 
 | Product                     | Revenue (£) |
 |----------------------------|-------------|
@@ -71,8 +74,8 @@ These steps ensured consistency and enabled profit and trend analysis.
 | Compact Digital Camera         | 33,252.43 |
 | Compact Dishwasher             | 32,738.16 |
 
-#### ❌ Top 5 Underperforming Products
-
+#### Top 5 Underperforming Products
+![Top 5 Underperforming Products](Top_5_Under_Performing_Product_by_Revenue.png)  
 | Product                  | Revenue (£) |
 |--------------------------|-------------|
 | Herb Seasoned Rice       | 17.94       |
@@ -81,14 +84,16 @@ These steps ensured consistency and enabled profit and trend analysis.
 | Baking Soda              | 8.77        |
 | Cinnamon Raisin Bagels  | 6.38        |
 
-> High-performing products are primarily in electronics and durable goods.  
-> Underperformers are low-cost food items with negligible revenue.
-
+> These products are all low-cost food items, and their total revenue contribution is negligible.
+> While likely to have high unit turnover, their low price points and low margin potential make them less profitable and possibly non-strategic for growth.
+> These results highlight an opportunity to:
+  - Reassess inventory strategies for these items
+  - Explore bundling or up-selling with other categories
 ---
 
-### 2.3 💰 Product Categories with Highest Margins
+### 2.3 Product Categories with Highest Margins
 
-![Product Margins](plots/product_margins.png)
+![Product Margins](Product_Categories_with_Highest_Margins.png)
 
 | Category     | Total Margin (£) |
 |--------------|------------------|
@@ -96,29 +101,30 @@ These steps ensured consistency and enabled profit and trend analysis.
 | Electronics  | 280,539.63       |
 | Kitchen      | 258,795.96       |
 
-- Focus areas for profitability: Outdoor, Electronics, and Kitchen
-- Low-margin categories: Pets, Health, Fitness
-
+- These three significantly outpace others and should be considered core strategic product categories.
+- Clothing and Accessories also exhibit strong margins (over £190K), signaling stable profitability despite potentially lower volume.
+- On the other end, Pets, Health, and Fitness yielded the lowest total margins, indicating either low markup or low sales volume.
 ---
 
-### 2.4 🌐 Online vs In-Store Sales
+### 2.4 Online vs In-Store Sales
 
-![Order Mode Distribution](plots/order_mode_distribution.png)
+![Order Mode Distribution](Sales_Distrobution_across_Order_Modes.png)
 
 - **Online Sales**: £1.63M (91.4%)  
 - **In-Store Sales**: £153K (8.6%)
 
-> Online is the dominant channel, highlighting the need for continued investment in digital infrastructure.
-
+> This strongly indicates a digital-first consumer base, making e-commerce optimizations, logistics, and online promotions high-priority areas for the business.
+> The low In-Store revenue may suggest:
+  - Fewer retail outlets
+  - Limited in-store promotions
+  - Or changing consumer behavior post-pandemic
+  - A recommendation is to either boost In-Store engagement or double down on digital infrastructure, depending on business strategy.
 ---
 
-## ✅ 3. Conclusion & Recommendations
+## 3. Conclusion & Recommendations
 
 ### Key Takeaways:
-- Sales are strongest in a few key regions; others need strategic outreach.
-- High-revenue products are capital equipment and electronics.
-- Online channel is overwhelmingly preferred.
-- Grocery items contribute minimal revenue and may be optimized or bundled.
+The data shows a healthy revenue stream driven primarily by online sales and high-ticket items in categories such as Outdoor, Electronics, and Kitchen. However, there is significant variance in regional performance and an overrepresentation of low-revenue grocery items, which may dilute profitability.
 
 ### Recommendations:
 1. **Scale high-margin categories**: Focus on Outdoor, Electronics, Kitchen.
@@ -129,20 +135,11 @@ These steps ensured consistency and enabled profit and trend analysis.
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
-- `Ace Superstore Retail Dataset.xlsx`: Cleaned dataset
-- `plots/`: Contains all visualization charts used in this analysis
+- `Aqsa_Shabbir_Sales_Report.xlsx`: Cleaned dataset with visualization dashboard
 - `README.md`: This report in Markdown format
 
 ---
-
-## 🔗 Submission Notes
-
-This submission is part of the RDAMP Program's Task 1. All analysis was conducted using **Microsoft Excel**, and the report has been formatted and submitted per GitHub and program guidelines.
-
----
-
-**#RDAMP** | **#SalesAnalysis** | **#ExcelAnalytics** | **#BusinessIntelligence**
 
 
