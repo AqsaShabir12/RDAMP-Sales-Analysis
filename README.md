@@ -113,8 +113,8 @@ These steps ensured consistency and enabled profit and trend analysis.
 - **Online Sales**: £1.63M (91.4%)  
 - **In-Store Sales**: £153K (8.6%)
 
-> This strongly indicates a digital-first consumer base, making e-commerce optimizations, logistics, and online promotions high-priority areas for the business.
-> The low In-Store revenue may suggest:
+- This strongly indicates a digital-first consumer base, making e-commerce optimizations, logistics, and online promotions high-priority areas for the business.
+- The low In-Store revenue may suggest:
   - Fewer retail outlets
   - Limited in-store promotions
   - Or changing consumer behavior post-pandemic
