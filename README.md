@@ -50,7 +50,7 @@ These steps ensured consistency and enabled profit and trend analysis.
 
 ### 2.1 Regional Performance – Sales & Discounts
 
-![Total Sales by Region](plots/total_sales_by_region.png)  
+![Total Sales by Region](Total Sales by Region.png)  
 ![Total Discount by Region](plots/total_discount_by_region.png)
 
 - **Top Sales Regions**: East Midlands, Scotland, Yorkshire and the Humber, London
